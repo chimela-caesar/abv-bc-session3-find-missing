@@ -1,0 +1,29 @@
+{
+  "name": "abv-bc-session3-find-missing",
+  "version": "1.0.0",
+  "description": "A function `findMissing` that takes in two arguments, both of which are arrays, and returns the difference of them.",
+  "main": "app/findMissing.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Philipeano/javascript-demo-project.git"
+  },
+  "author": "Philip Newman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Philipeano/javascript-demo-project/issues"
+  },
+  "homepage": "https://github.com/Philipeano/javascript-demo-project#readme",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "devDependencies": {
+    "jasmine": "^2.6.0"
+  }
+}
