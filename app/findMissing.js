@@ -6,7 +6,7 @@ exports.findMissing = function(arr1, arr2)
 {
   if (arr1 && arr1.length === 0 || arr2 && arr2.length === 0) return 0;
   
-  let largeArr, smallArr, equalArrs;
+  let largeArr, smallArr, equalLengthArrs;
   
   if (arr1.length > arr2.length) {
 	  largeArr = arr1;
@@ -15,10 +15,10 @@ exports.findMissing = function(arr1, arr2)
 	  largeArr = arr2;
 	  smallArr = arr1;
   } else {
-	  equalArrs = true;
+	  equalLengthArrs; = true;
   }
   
-  if (equalArrs) {
+  if (equalLengthArrs) {
     let equal = arr1.every(function(item, index){
       return (item === arr2[index]);
     });
