@@ -4,7 +4,7 @@ var exports = module.exports = {};
 
 exports.findMissing = function(arr1, arr2)
 {
-  if (arr1 === [] || arr2 === []) return 0;
+  if (arr && arr1.length === 0 || arr2 && arr2.length === 0) return 0;
   if (arr1 === arr2) return 0;
    
   let largeArr, smallArr;
