@@ -15,7 +15,7 @@ exports.findMissing = function(arr1, arr2)
 	  largeArr = arr2;
 	  smallArr = arr1;
   } else {
-	  equalLengthArrs; = true;
+	  equalLengthArrs = true;
   }
   
   if (equalLengthArrs) {
